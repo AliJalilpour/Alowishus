@@ -1,1 +1,41 @@
 @import "tailwindcss";
+
+/* font-face */
+@font-face {
+    font-family: "Jost";
+    src: url(./font/static/Jost-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Jost";
+    src: url(./font/static/Jost-Medium.ttf) format('truetype');
+    font-weight: 500;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Jost";
+    src: url(./font/static/Jost-SemiBold.ttf) format('truetype');
+    font-weight: 600;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Jost";
+    src: url(./font/static/Jost-ExtraBold.ttf) format('truetype');
+    font-weight: 800;
+    font-display: swap;
+}
+/* theme */
+@theme {
+    /* font */
+    --font-jost: "Jost", sans-serif;
+    /* color */
+    --color-eerie-black: #1B1B1D;
+    --color-bright-gray: #EEEFF1;
+    --color-granite-gray: #64646A;
+    --color-selective-yellow: #FFB700;
+    /* text */
+    --text-base: 15px;
+    /* shadow */
+    --shadow-2xl: box-shadow: 0px 30px 60px 0px rgba(163, 168, 178, 0.15);
+}
