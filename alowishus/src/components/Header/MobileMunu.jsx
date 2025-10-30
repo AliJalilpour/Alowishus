@@ -11,7 +11,7 @@ const MobileMenu = ({ open, setOpen }) => {
                 </nav>
             </div>
             {/* layout */}
-            <div onClick={() => setOpen(false)} className={`absolute z-10 ${open ? `top-0 right-0 bottom-0 left-0 bg-black/50` : `hidden`}`}></div>
+            <div onClick={() => setOpen(false)} className={`absolute z-10 md:hidden ${open ? `top-0 right-0 bottom-0 left-0 bg-black/50` : `hidden`}`}></div>
         </div>
     );
 };
