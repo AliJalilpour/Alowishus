@@ -4,8 +4,10 @@ import Main from "./components/Main/Main";
 const App = () => {
   return (
     <>
-      <Header />
-      <Main />
+    <div className="bg-bright-gray">
+        <Header />
+        <Main />
+    </div>
     </>
   )
 }
