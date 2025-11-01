@@ -19,7 +19,7 @@ const Explore = () => {
                             <div className="max-md:w-23 md:w-25 lg:w-30 xl:w-40 max-md:mb-10 md:mb-15 lg:mb-10 xl:mb-15">
                                 <img src="/image/food.png" alt="order" />
                             </div>
-                            <a href="#" className="text-white font-jost font-medium md:text-sm lg:text-base xl:text-lg flex py-3.75 px-7.5 rounded-full bg-eerie-black">ORDER CATHERING</a>
+                            <a href="#" className="text-white font-jost font-medium md:text-sm lg:text-base xl:text-lg flex py-3.75 px-7.5 rounded-full bg-eerie-black hover:bg-white hover:text-eerie-black transition-all duration-300 delay-75">ORDER CATHERING</a>
                         </div>
                     </div>
                     {/* food menu */}
@@ -32,7 +32,7 @@ const Explore = () => {
                             <div className="max-md:w-23 md:w-25 lg:w-30 xl:w-40 max-md:mb-10 md:mb-15 lg:mb-10 xl:mb-15">
                                 <img src="/image/fast-food.png" alt="order" />
                             </div>
-                            <a href="#" className="text-white font-jost font-medium md:text-sm lg:text-base xl:text-lg flex py-3.75 px-7.5 rounded-full bg-eerie-black">FOOD MENU</a>
+                            <a href="#" className="text-white font-jost font-medium md:text-sm lg:text-base xl:text-lg flex py-3.75 px-7.5 bg-eerie-black  rounded-full hover:bg-white hover:text-eerie-black transition-all duration-300 delay-75">FOOD MENU</a>
                         </div>
                     </div>
                     {/* discover more */}
@@ -45,7 +45,7 @@ const Explore = () => {
                             <div className="max-md:w-23 md:w-25 lg:w-30 xl:w-40 max-md:mb-10 md:mb-15 lg:mb-10 xl:mb-15">
                                 <img src="/image/ice-cream.png" alt="order" />
                             </div>
-                            <a href="#" className="text-white font-jost font-medium md:text-sm lg:text-base xl:text-lg flex py-3.75 px-7.5 rounded-full bg-eerie-black">DISCOVER MORE</a>
+                            <a href="#" className="text-white font-jost font-medium md:text-sm lg:text-base xl:text-lg flex py-3.75 px-7.5 bg-eerie-black rounded-full hover:bg-white hover:text-eerie-black transition-all duration-300 delay-75">DISCOVER MORE</a>
                         </div>
                     </div>
                 </div>
