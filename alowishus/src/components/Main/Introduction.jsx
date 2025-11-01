@@ -1,13 +1,13 @@
 const Introduction = () => {
     return (
-        <section>
+        <section className="container mx-auto px-5">
             {/* wrapper */}
-            <div className="flex flex-col-reverse md:flex-row md:items-center gap-y-10 md:justify-between pb-40">
+            <div className="flex flex-col-reverse md:flex-row md:items-center gap-y-10 md:justify-between md:pb-20 lg:pb-30 xl:pb-40">
                 {/* introduction */}
                 <div className="flex-1 ">
                     <div>
                         <span className="font-jost font-extrabold max-sm:w-80 max-sm:text-6xl sm:text-8xl md:text-6xl lg:text-8xl xl:text-9xl text-eerie-black">Alowishus Delicious Coffee</span>
-                        <div className="inline-flex ml-5 md:w-10 lg:w-15 xl:w-20">
+                        <div className="inline-flex max-sm:ml-3 sm:ml-5 max-sm:w-10 sm:w-12 lg:w-15 xl:w-20">
                             <img src="/image/image 3.png" alt="cafe" />
                         </div>
                         <p className="font-jost text-xl xl:text-2xl text-granite-gray max-lg:my-5 lg:my-5 max-md:max-w-85 md:max-w-100 xl:max-w-132.5">A drink from the ‘My Alowishus’ bottled brews range OR grab one of our delicious coffee’s.</p>
