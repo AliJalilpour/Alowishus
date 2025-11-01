@@ -2,7 +2,7 @@ const Introduction = () => {
     return (
         <section className="container mx-auto px-5">
             {/* wrapper */}
-            <div className="flex flex-col-reverse md:flex-row md:items-center gap-y-10 md:justify-between md:pb-20 lg:pb-30 xl:pb-40">
+            <div className="flex flex-col-reverse md:flex-row md:items-center gap-y-10 md:justify-between max-lg:pb-20 lg:pb-30 xl:pb-40">
                 {/* introduction */}
                 <div className="flex-1 ">
                     <div>
