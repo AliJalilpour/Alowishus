@@ -1,5 +1,6 @@
 import Explore from "./Explore";
 import Introduction from "./Introduction";
+import Order from "./Order";
 
 const Main = () => {
     return (
@@ -7,6 +8,7 @@ const Main = () => {
             <Introduction />
             <section className="bg-linear-to-b from-white via-[#F3F4F5]/50 to-white">
                 <Explore />
+                <Order />
             </section>
         </main>
     )
