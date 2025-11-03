@@ -1,7 +1,9 @@
 import BestSelling from "./BestSelling";
 import Explore from "./Explore";
+import InstantCoffee from "./InstantCoffee";
 import Introduction from "./Introduction";
 import Order from "./Order";
+import Testimonials from "./Testimonials";
 
 const Main = () => {
     return (
@@ -11,6 +13,8 @@ const Main = () => {
                 <Explore />
                 <Order />
                 <BestSelling />
+                <InstantCoffee />
+                <Testimonials />
             </section>
         </main>
     )
