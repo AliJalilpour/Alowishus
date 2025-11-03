@@ -1,6 +1,7 @@
 const BestSelling = () => {
     return (
-        <section>
+        <section className="relative">
+            <img className="absolute -top-50 right-0 max-xl:hidden" src="/image/24 2.png" alt="img" />
             {/* wrapper */}
             <div className="container mx-auto mt-20 px-5">
                 {/* information */}
@@ -11,7 +12,7 @@ const BestSelling = () => {
                 {/* best selling coffee */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                     {/* 1 */}
-                    <div className="flex flex-col justify-between lg:p-5 xl:p-9 shadow-2xl rounded-3xl max-lg:h-90 lg:h-100 xl:h-120">
+                    <div className="flex flex-col justify-between lg:p-3 xl:p-9 shadow-2xl rounded-3xl max-lg:h-90 lg:h-100 xl:h-120">
                         {/* image */}
                         <div className="flex items-center gap-x-5">
                             <div className="w-30">
@@ -27,7 +28,7 @@ const BestSelling = () => {
                             <p className="font-jost text-xl text-granite-gray">Amet minim mollit non deserunt dolor ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.</p>
                         </div>
                         {/* order */}
-                        <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-x-10 md:justify-between">
                             <span className="font-jost font-medium max-xl:text-2xl xl:text-3xl text-eerie-black">$59.99</span>
                             <a href="#" className="text-white font-jost font-medium md:text-sm lg:text-base xl:text-lg flex py-3.75 px-7.5 bg-eerie-black  rounded-full hover:bg-white hover:text-eerie-black transition-all duration-300 delay-75">ORDER NOW</a>
                         </div>
@@ -49,7 +50,7 @@ const BestSelling = () => {
                             <p className="font-jost text-xl text-granite-gray">Amet minim mollit non deserunt dolor ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.</p>
                         </div>
                         {/* order */}
-                        <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-x-10 md:justify-between">
                             <span className="font-jost font-medium max-xl:text-2xl xl:text-3xl text-eerie-black">$59.99</span>
                             <a href="#" className="text-white font-jost font-medium md:text-sm lg:text-base xl:text-lg flex py-3.75 px-7.5 bg-eerie-black  rounded-full hover:bg-white hover:text-eerie-black transition-all duration-300 delay-75">ORDER NOW</a>
                         </div>
@@ -71,7 +72,7 @@ const BestSelling = () => {
                             <p className="font-jost text-xl text-granite-gray">Amet minim mollit non deserunt dolor ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.</p>
                         </div>
                         {/* order */}
-                        <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-x-10 md:justify-between">
                             <span className="font-jost font-medium max-xl:text-2xl xl:text-3xl text-eerie-black">$59.99</span>
                             <a href="#" className="text-white font-jost font-medium md:text-sm lg:text-base xl:text-lg flex py-3.75 px-7.5 bg-eerie-black  rounded-full hover:bg-white hover:text-eerie-black transition-all duration-300 delay-75">ORDER NOW</a>
                         </div>
