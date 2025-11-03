@@ -5,7 +5,7 @@ const Explore = () => {
             <img className="absolute top-5 max-xl:hidden" src="/image/24 1.png" alt="coffee" />
             <div className="container mx-auto px-5">
                 <div className="max-xl:pt-20 xl:pt-37.5 max-md:mb-15 md:mb-22.5 flex flex-col items-center">
-                    <h2 className="font-jost font-extrabold max-md:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-eerie-black mb-6">Explore Our Alowishus</h2>
+                    <h2 className="font-jost font-extrabold max-md:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-eerie-black mb-6 text-center">Explore Our Alowishus</h2>
                     <p className="font-jost md:text-xl xl:text-2xl text-granite-gray max-w-150 text-center">A drink from the ‘My Alowishus’ bottled brews range OR grab one of our delicious coffee’s.</p>
                 </div>
                 {/* order & menu & discover more */}
